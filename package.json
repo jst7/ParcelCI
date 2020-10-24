@@ -1,0 +1,29 @@
+{
+    "name": "parcelci",
+    "version": "1.0.0",
+    "description": "Instalar parcel:",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npm-run-all clean parcel:dev",
+        "build": "npm-run-all clean parcel:build",
+        "parcel:dev": "parcel index.html",
+        "parcel:build": "parcel build index.html",
+        "clean": "rimraf dist .cache .cache-loader"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jst7/ParcelCI.git"
+    },
+    "author": "Jorge Segovia",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jst7/ParcelCI/issues"
+    },
+    "homepage": "https://github.com/jst7/ParcelCI#readme",
+    "devDependencies": {
+        "autoprefixer": "^9.8.6",
+        "npm-run-all": "^4.1.5",
+        "parcel-bundler": "^1.12.4",
+        "rimraf": "^3.0.2"
+    }
+}
