@@ -42,6 +42,7 @@ body {
 
 a:hover {
     color: var(--color-resaltado) !important;
+    cursor: pointer;
 }
 
 .menu li {
@@ -72,9 +73,43 @@ main {
 
 .cat-item {
     height: 100vw;
-    text-align: center;
     border: 2px solid var(--color-cat);
     margin-bottom: 2%;
+    border-radius: 5%;
+    position: relative;
+    cursor: pointer;
+}
+
+.cat-item:nth-child(1n) {
+    background-color: #4bf3ff;
+    color: #ff640a;
+}
+
+.cat-item:nth-child(2n) {
+    background-color: #5dff72;
+    color: #b700ff;
+}
+
+.cat-item:nth-child(3n) {
+    background-color: #b700ff;
+    color: #ffffff;
+}
+
+.cat-item:last-child {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.item-icon i {
+    font-size: 15em;
+}
+
+.item-container {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 15%;
 }
 
 footer {

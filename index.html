@@ -8,30 +8,67 @@
     <meta name="description" content="">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
 
 <body>
     <nav class="menu" id="menu">
         <ul>
             <li><a href="/">Inicio</a></li>
-            <li><a href="/categoria.html">Ciencia Ficción</a></li>
-            <li><a href="/categoria.html">Realismo Mágico</a></li>
-            <li><a href="">Sobre nosotros</a></li>
+            <li>
+                <a href="/categoria.html"> <i class="fab fa-jedi-order"></i> Ciencia Ficción</a>
+            </li>
+            <li>
+                <a href="/categoria.html"> <i class="fas fa-vr-cardboard"></i> Realismo Mágico</a>
+            </li>
+            <li>
+                <a href="/categoria.html"> <i class="fab fa-playstation"></i> Videojuegos</a>
+            </li>
+            <li>
+                <a href="/categoria.html"> <i class="fas fa-ellipsis-h"></i> Más Categorias</a>
+            </li>
         </ul>
     </nav>
     <main>
         <section class="cats-box">
-            <div class="cat-item">
-                <a>CAT</a>
+            <div class="cat-item" href="categoria.html">
+                <div class="item-container">
+                    <div class="item-icon">
+                        <i class="fab fa-jedi-order"></i>
+                    </div>
+                    <p>Ciencia Ficción</p>
+                </div>
             </div>
-            <div class="cat-item">
-                <a>CAT2</a>
+            <div class="cat-item" href="categoria.html">
+                <div class="item-container">
+                    <div class="item-icon">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <p>Realismo Mágico</p>
+                </div>
             </div>
+            <div class="cat-item" href="categoria.html">
+                <div class="item-container">
+                    <div class="item-icon">
+                        <i class="fab fa-playstation"></i>
+                    </div>
+                    <p>Historias de videojuegos</p>
+                </div>
+            </div>
+            <div class="cat-item" href="categoria.html">
+                <div class="item-container">
+                    <div class="item-icon">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <p>Más categorias</p>
+                </div>
+            </div>
+
         </section>
 
     </main>
     <footer>
-        <a href="#menu">Volver a inicio</a>
+        <a href="#menu"><i class="fas fa-arrow-circle-up"></i>Volver a inicio</a>
     </footer>
 </body>
 
