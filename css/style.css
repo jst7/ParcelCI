@@ -156,3 +156,41 @@ footer a {
         border: 2px solid var(--color-cat)
     }
 }
+
+.location a {
+    text-decoration: none;
+    color: var(--color-resaltado);
+}
+
+.location {
+    margin-top: 15px;
+    background-color: #000000;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    border-radius: 1.4em;
+    padding: 1%;
+}
+
+.location li {
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+.book-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1vh;
+}
+
+.book-item {
+    height: 60vw;
+    border: 2px solid var(--color-cat);
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 5%;
+    position: relative;
+    cursor: pointer;
+}
