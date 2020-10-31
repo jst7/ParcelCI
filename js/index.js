@@ -47,5 +47,5 @@ document.getElementById('breadcrumb').innerHTML = `
 var titulo = document.getElementById('titulo-libro');
 
 if (titulo) {
-    titulo.outerHTML = detalle;
+    titulo.outerHTML = `<h1> ${detalle} </h1>`;
 }

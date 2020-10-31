@@ -63,6 +63,7 @@ a:hover {
 main {
     margin-left: 1%;
     margin-right: 1%;
+    margin-bottom: 1%;
 }
 
 .cats-box {
@@ -101,7 +102,17 @@ main {
 }
 
 .item-icon i {
-    font-size: 15em;
+    font-size: 70vw;
+}
+
+.cat-item p {
+    font-size: 1.4em;
+}
+
+@media all and (min-width: 700px) {
+    .item-icon i {
+        font-size: 18vw;
+    }
 }
 
 .item-container {
@@ -110,6 +121,16 @@ main {
     left: 0;
     right: 0;
     top: 15%;
+}
+
+.item-container img {
+    width: 80%;
+    border-radius: 1.4em;
+}
+
+.item-container h1 {
+    font-weight: bold;
+    font-size: large;
 }
 
 footer {
@@ -193,4 +214,75 @@ footer a {
     border-radius: 5%;
     position: relative;
     cursor: pointer;
+}
+
+@media all and (min-width: 700px) {
+    .book-box {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .book-item {
+        height: 25vw;
+    }
+}
+
+.detail-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detail-box button {
+    width: 100%;
+    background-color: var(--color-cat);
+    color: white;
+    border-radius: 1.4em;
+}
+
+.detail-box button:hover {
+    background-color: var(--color-resaltado);
+    color: orange
+}
+
+.detail-box img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 1.4em;
+}
+
+.book-side {
+    position: relative;
+}
+
+.book-side:nth-child(odd) {
+    border: 2px solid black;
+    border-radius: 1.4em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.info-book li:nth-child(1) {
+    margin-bottom: 10%;
+}
+
+.info-book li:nth-child(2) {
+    font-weight: bold;
+}
+
+.info-book li:nth-child(3) {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@media all and (min-width: 700px) {
+    .detail-box {
+        grid-template-columns: 1fr 1fr;
+        width: 60%;
+    }
+    .book-side:nth-child(odd) {
+        margin-right: 4em;
+        margin-bottom: 0em;
+    }
 }
