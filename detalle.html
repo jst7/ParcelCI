@@ -6,7 +6,7 @@
     <title>Ciencia ficcion</title>
     <meta name="author" content="Jorge Segovia">
     <meta name="description" content="">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
@@ -34,21 +34,23 @@
 
         <section class="detail-box">
             <div class="book-side">
-                <p id="titulo-libro"></p>
-                <img src="/assets/img/img.png" alt="imagen de libro" />
+                <h1 id="titulo-libro"></h1>
+                <img id="img-libro" alt="imagen de libro" />
                 <button><i class="fas fa-book"></i> Leer</button>
             </div>
 
             <div class="book-side ">
                 <ul class="info-book">
                     <li>
-                        <p>Una descripción del libro, puede ser larga o corta, pero esto simplemente es un texto de ejemplo para ver como queda en un modelo de página web escaparate para poder observar el texto</p>
+                        <p id="desc-libro">desc</p>
                     </li>
                     <li>
-                        <p>Autor: Jorge Segovia</p>
+                        <p>Autor:
+                            <span id="autor-libro">Autor</span>
+                        </p>
                     </li>
                     <li>
-                        <p>ISBN: 090898098098</p>
+                        <p>Origen: <span id="origen-libro">Autor</span></p>
                     </li>
                 </ul>
             </div>

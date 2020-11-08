@@ -116,16 +116,20 @@ main {
 }
 
 .item-container {
-    position: absolute;
     text-align: center;
     left: 0;
     right: 0;
-    top: 15%;
 }
 
 .item-container img {
     width: 80%;
     border-radius: 1.4em;
+}
+
+.item-container h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 .item-container h1 {
@@ -207,8 +211,6 @@ footer a {
 }
 
 .book-item {
-    height: 60vw;
-    border: 2px solid var(--color-cat);
     margin-bottom: 2%;
     margin-right: 2%;
     border-radius: 5%;
@@ -221,7 +223,13 @@ footer a {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     .book-item {
-        height: 25vw;
+        height: 35vw;
+    }
+    .book-item img {
+        width: 95%;
+    }
+    .book-item img:hover {
+        width: 100%;
     }
 }
 
@@ -280,6 +288,9 @@ footer a {
     .detail-box {
         grid-template-columns: 1fr 1fr;
         width: 60%;
+    }
+    .detail-box img {
+        width: 100%;
     }
     .book-side:nth-child(odd) {
         margin-right: 4em;

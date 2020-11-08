@@ -4,11 +4,12 @@
     "description": "Instalar parcel:",
     "main": "index.js",
     "scripts": {
-        "dev": "npm-run-all clean parcel:dev",
-        "build": "npm-run-all clean parcel:build",
+        "dev": "npm-run-all clean copy-assets parcel:dev ",
+        "build": "npm-run-all clean copy-assets parcel:build",
         "parcel:dev": "parcel index.html",
         "parcel:build": "parcel build index.html",
-        "clean": "rimraf dist .cache .cache-loader"
+        "clean": "rimraf dist .cache .cache-loader",
+        "copy-assets": "cp -R ./assets ./dist/"
     },
     "repository": {
         "type": "git",
