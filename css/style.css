@@ -231,6 +231,12 @@ footer a {
     }
 }
 
+#titulo-libro {
+    color: var(--color-resaltado);
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
+
 .detail-box {
     display: grid;
     grid-template-columns: 1fr;
@@ -293,8 +299,12 @@ footer a {
     }
     .book-side:nth-child(odd) {
         margin-right: 4em;
+        margin-top: 0em;
         margin-bottom: 0em;
         text-align: center;
+    }
+    .book-side:nth-child(even) {
+        margin-top: 10%;
     }
 }
 
@@ -312,4 +322,8 @@ footer a {
     color: var(--color-resaltado);
     font-size: xx-large;
     margin-bottom: 1%;
+}
+
+.center {
+    text-align: center;
 }

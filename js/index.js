@@ -263,7 +263,7 @@ function gridBooks() {
     data.forEach(item => {
         if (item.category == valor)
             librosStr = librosStr + `
-                <div class="book-item" id='${item.id}'">
+                <div class="book-item center" id='${item.id}'">
                     <div class="item-container">
                         <img src="/img/${item.id}.jpeg" alt='${item.name}' />
                     </div>
@@ -280,7 +280,7 @@ function gridBooks() {
 }
 
 function gridDetailBooks() {
-    var librosStr = 'No hay libros actualmente de esta temática';
+    var librosStr = '';
     var valor = url.searchParams.get('valor');
     var detail = url.searchParams.get('detail');
 
@@ -297,7 +297,7 @@ function gridDetailBooks() {
         if (item.category == libro.category && item.id != libro.id && cont < 3) {
             cont++;
             librosStr = librosStr + `
-                <div class="book-item" id='${item.id}'">
+                <div class="book-item center" id='${item.id}'">
                     <div class="item-container">
                         <img src="/img/${item.id}.jpeg" alt='${item.name}' />
                     </div>
@@ -307,7 +307,9 @@ function gridDetailBooks() {
         }
 
     })
-
+    if (librosStr.length == 0) {
+        librosStr = 'No hay libros actualmente de esta temática';
+    }
     var container = document.getElementById('id-another-book-container');
     if (container) {
         container.outerHTML = librosStr;
