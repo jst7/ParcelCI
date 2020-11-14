@@ -297,3 +297,19 @@ footer a {
         text-align: center;
     }
 }
+
+.anothers-books {
+    background-color: aliceblue;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 1.4em;
+    border: 5px solid var(--color-resaltado);
+    padding: 2%;
+}
+
+.anothers-books-title {
+    color: var(--color-resaltado);
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
