@@ -117,8 +117,6 @@ main {
 
 .item-container {
     text-align: center;
-    left: 0;
-    right: 0;
 }
 
 .item-container img {
@@ -180,6 +178,15 @@ footer a {
         text-align: center;
         border: 2px solid var(--color-cat)
     }
+    .item-container img {
+        object-fit: scale-down;
+        height: 20vw;
+        width: 15vw;
+        border-radius: 1.4em;
+    }
+    .item-container img:hover {
+        object-fit: cover;
+    }
 }
 
 .location a {
@@ -222,15 +229,6 @@ footer a {
     .book-box {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    .book-item {
-        height: 35vw;
-    }
-    .book-item img {
-        width: 95%;
-    }
-    .book-item img:hover {
-        width: 100%;
-    }
 }
 
 .detail-box {
@@ -262,13 +260,14 @@ footer a {
 
 .book-side {
     position: relative;
+    text-align: justify;
 }
 
 .book-side:nth-child(odd) {
-    border: 2px solid black;
     border-radius: 1.4em;
     padding: 1em;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .info-book li:nth-child(1) {
@@ -287,7 +286,7 @@ footer a {
 @media all and (min-width: 700px) {
     .detail-box {
         grid-template-columns: 1fr 1fr;
-        width: 60%;
+        width: 90%;
     }
     .detail-box img {
         width: 100%;
@@ -295,5 +294,6 @@ footer a {
     .book-side:nth-child(odd) {
         margin-right: 4em;
         margin-bottom: 0em;
+        text-align: center;
     }
 }

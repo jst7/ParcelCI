@@ -1,284 +1,113 @@
-var data = [{
+[{
         "id": 1,
         "name": "LA HISTORIA DE TU VIDA",
-        "category": "Ciencia Ficción",
         "author": "TED CHIANG",
         "desc": "Una torre que se alza sobre la llanura mesopotámica hasta tocar la bóveda del cielo. Dos hombres que alcanzan un grado de inteligencia tan alto que se asemejan a dioses. La prueba de que las matemáticas carecen de sentido. Un lenguaje alienígena que permite a quienes lo leen expandir su consciencia a lo largo del tiempo. La cábala y la teoría de la preformación se combinan en una Inglaterra victoriana salida de nuestros sueños, o de nuestras pesadillas. Ante la llegada de los metahumanos, la ciencia humana se ve reducida a una nota a pie de página. En un universo donde Dios existe sin que quepa ninguna duda, ¿es posible no amarle? Y si pudieras programarte para ignorar las apariencias, ¿te arriesgarías a perder toda percepción de la belleza humana? Ted Chiang, galardonado con el premio John W. Campbell Jr., brilla como una nova en el firmamento de la ciencia-ficción. Con un premio Hugo, tres Nebula, un Sturgeon, un Kurd Lasswitz, dos Seiun, un Sidewise y dos Locus, La historia de tu vida es un libro imprescindible. En 2016, el relato que da nombre a esta antología ha sido llevado al cine bajo el título La llegada (por Denis Villeneuve, con Amy Adams y Jeremy Renner), cosechando un enorme éxito mundial y lanzando a Ted Chiang al estrellato de los autores de ciencia-ficción mejor adaptados.",
-        "origenUrl": "https://www.casadellibro.com/libro-la-historia-de-tu-vida/9788498891188/9038278",
+        "origen-url": "https://www.casadellibro.com/libro-la-historia-de-tu-vida/9788498891188/9038278",
         "img": "1.jpeg"
     },
     {
         "id": 2,
         "name": "FAHRENHEIT 451",
-        "category": "Ciencia Ficción",
         "author": "RAY BRADBURY",
         "desc": "Fahrenheit 451: la temperatura a la que el papel se enciende y arde. Guy Montag es un bombero y el trabajo de un bombero es quemar libros, que están prohibidos porque son causa de discordia y sufrimiento.El Sabueso Mecánico del Departamento de Incendios, armado con una letal inyección hipodérmica, escoltado por helicópteros, está preparado para rastrear a los disidentes que aún conservan y leen libros. Como 1984, de George Orwell, como Un mundo feliz, de Aldous Huxley, Fahrenheit 451 describe una civilización occidental esclavizada por los medios, los tranquilizantes y el conformismo.La visión de Bradbury es asombrosamente profética: pantallas de televisión que ocupan paredes y exhiben folletines interactivos; avenidas donde los coches corren a 150 kilómetros por hora persiguiendo a peatones; una población que no escucha otra cosa que una insípida corriente de música y noticias transmitidas por unos diminutos auriculares insertados en las orejas.«Fahrenheit 451 es el más convincente de todos los infiernos conformistas.» KINGSLEY AMIS",
-        "origenUrl": "https://www.casadellibro.com/libro-fahrenheit-451/9788490321478/2013349",
+        "origen-url": "https://www.casadellibro.com/libro-fahrenheit-451/9788490321478/2013349",
         "img": "2.jpeg"
     },
     {
         "id": 3,
         "name": "EXHALACION ",
-        "category": "Ciencia Ficción",
         "author": "TED CHIANG",
         "desc": "¿Qué pasaría si un inocente juguete dinamitara nuestra noción de libre albedrío? ¿Y si fuera posible ponerse en contacto con versiones de nosotros mismos en otras líneas temporales? No importa cuál sea el tema que trate Ted Chiang en sus narraciones, siempre demuestra una formidable habilidad para indagar en los enigmas de la condición humana y abordar los conflictos éticos que la relación con la tecnología plantea en nuestra existencia, desde una perspectiva abiertamente positiva y vitalista. Reveladores, elegantes y sorprendentes, los relatos de Exhalación sitúan a Ted Chiang entre los autores indiscutibles de la literatura estadounidense actual.",
-        "origenUrl": "https://www.casadellibro.com/libro-exhalacion/9788417517793/11660936",
+        "origen-url": "https://www.casadellibro.com/libro-exhalacion/9788417517793/11660936",
         "img": "3.jpeg"
     },
     {
         "id": 4,
         "name": "DUNE ",
-        "category": "Ciencia Ficción",
         "author": "FRANK HERBERT",
         "desc": "Duneserá siempre considerada el gran triunfo de la imaginación que convirtió a Frank Herbert en uno de los grandes visionarios de la literatura universal. Hoy este gran clásico vuelve a estar de actualidad porque pronto inspirará una película y una serie de televisión dirigidas por Denis Villeneuve, el director deArrival yBlade Runner 2049. Es hora, pues, de reivindicar un libro mítico con esta edición para coleccionistas que reproduce las doce ilustraciones interiores, firmadas por el prestigioso ilustrador Sam Weber, de la aclamada edición estadounidense, conmemorativa del cincuenta aniversario deDune, de The Folio Society.La historia comienza a miles de años en el futuro, en un gran imperio galáctico dividido en cuasi-feudos controlados por familias nobles. La clave para el control del Imperio se encuentra en Arrakis, un planeta desértico también conocido como Dune. El protagonista de la historia es el joven Paul Atreides, heredero del ducado de la Casa de los Atreides. Su padre, Leto Atreides, recibe de pronto la orden de trasladarse a Arrakis, y Paul deberá enfrentarse, por un la...",
-        "origenUrl": "https://www.casadellibro.com/libro-dune/9788417347628/10014535",
+        "origen-url": "https://www.casadellibro.com/libro-dune/9788417347628/10014535",
         "img": "4.jpeg"
     },
     {
         "id": 5,
         "name": "EL FIN DE LA MUERTE (TRILOGÍA DE LOS TRES CUERPOS 3) ",
-        "category": "Ciencia Ficción",
         "author": "CIXIN LIU",
         "desc": "Tras El problema de los tres cuerpos y El bosque oscuro, la tensa espera de la humanidad concluye ahora con un último episodio, tan extraordinario como los anteriores, lleno de ideas electrizantes y una calidad de obra maestra.        Ha pasado medio siglo de la batalla del Día del Juicio Final y la Tierra goza de una prosperidad sin precedentes gracias al conocimiento transferido por Trisolaris. Mientras la ciencia humana avance y los trisolarianos adopten la cultura terrícola, ambas civilizaciones podrán convivir sin temor a ser destruidas. Pero con la paz la humanidad se ha vuelto autocomplaciente. Después de una larga hibernación, Cheng Xin, una ingeniera aeroespacial de comienzos del siglo XX, despierta en esta nueva era. Su mera presencia, sumada a cierta información sobre un proyecto olvidado desde el principio de la Crisis Trisolariana, podría alterar el frágil equilibrio entre ambos mundos... ¿Alcanzará el ser humano las estrellas, o morirá en su cuna?",
-        "origenUrl": "https://www.casadellibro.com/libro-el-fin-de-la-muerte-trilogia-de-los-tres-cuerpos-3/9788417347017/6222805",
+        "origen-url": "https://www.casadellibro.com/libro-el-fin-de-la-muerte-trilogia-de-los-tres-cuerpos-3/9788417347017/6222805",
         "img": "5.jpeg"
     },
     {
         "id": 6,
         "name": "EL BOSQUE OSCURO (TRILOGIA DE LOS TRES CUERPOS 2) ",
-        "category": "Ciencia Ficción",
         "author": "CIXIN LIU",
         "desc": "Ahora la Tierra tiene cuatro siglos para defenderse de lo inevitable: la llegada de los Trisolaris. Los colaboracionistas humanos pueden haber sido derrotados, pero los sofones permiten a los extraterrestres acceder a la información de la humanidad, dejando al descubierto toda estrategia de defensa.        Solo la mente humana sigue siendo un secreto, y ahora también la clave del acuciante plan que urdirán tres estadistas, un científico y un sociólogo.",
-        "origenUrl": "https://www.casadellibro.com/libro-el-bosque-oscuro-trilogia-de-los-tres-cuerpos-2/9788466660921/5750470",
+        "origen-url": "https://www.casadellibro.com/libro-el-bosque-oscuro-trilogia-de-los-tres-cuerpos-2/9788466660921/5750470",
         "img": "6.jpeg"
     },
     {
         "id": 7,
         "name": "DORMIR EN UN MAR DE ESTRELLAS ",
-        "category": "Ciencia Ficción",
         "author": "CHRISTOPHER PAOLINI",
         "desc": "Se suponía que esta sería una de esas misiones de búsqueda de rutina en un planeta no colonizado. Pero cuando Kira Navárez, una xenobióloga, encuentra debajo de la superficie de este mundo una reliquia alienígena, su vida y el curso de la historia humana cambiarán para siempre. Su viaje para descubrir la verdad acerca de la civilización alienígena la llevará a las maravillas y pesadillas del primer contacto, batallas espaciales épicas por el destino de la humanidad, y los rincones más profundos de la galaxia.",
-        "origenUrl": "https://www.casadellibro.com/libro-dormir-en-un-mar-de-estrellas/9788416517398/11593430",
+        "origen-url": "https://www.casadellibro.com/libro-dormir-en-un-mar-de-estrellas/9788416517398/11593430",
         "img": "7.jpeg"
     },
     {
         "id": 8,
         "name": "JERUSALEN (CABALLO DE TROYA 1) ",
-        "category": "Ciencia Ficción",
         "author": "J.J. BENITEZ",
         "desc": "Tal como afirma el propio J.J.Benítez, adelantar el argumento y la naturaleza de Caballo de Troya es quebrar el desconcertante misterio que encierran sus páginas. Podemos apuntar, eso sí, que para la elaboración de esta obra el autor se ha basado en una documentación real, depositada hace años en Estados Unidos. Una documentación que pone al descubierto multitud de datos nuevos sobre al figura y obra de Jesús de Nazaret. Podemos asegurar que -tal y como sospecha buena parte de la humanidad- las grandes potencias ocultan muchos de sus proyectos espaciales y militares, y Caballo de Troya es una prueba más de ello.",
-        "origenUrl": "https://www.casadellibro.com/libro-jerusalen-caballo-de-troya-1/9788408108047/1886830",
+        "origen-url": "https://www.casadellibro.com/libro-jerusalen-caballo-de-troya-1/9788408108047/1886830",
         "img": "8.jpeg"
     },
     {
         "id": 9,
         "name": "CRONICAS MARCIANAS ",
-        "category": "Ciencia Ficción",
         "author": "RAY BRADBURY",
         "desc": "Un clásico del siglo XX: la obra que consolidó a Bradbury como uno de los mejores escritores de la narrativa norteamericana.         Esta colección de relatos recoge la crónica de la colonización de Marte por parte de una humanidad que huye de un mundo al borde de la destrucción. Los colonos llevan consigo sus deseos más íntimos y el sueño de reproducir en el Planeta Rojo una civilización de perritos calientes, cómodos sofás y limonada en el porche al atardecer. Pero su equipaje incluye también los miedos ancestrales, que se traducen en odio a lo diferente, y las enfermedades que diezmarán a los marcianos. Conforme a su concepción de lo que debe ser la ciencia ficción, Bradbury se traslada al futuro para iluminar el presente y explorar la naturaleza humana. Escritas en la década de los cuarenta, estas deslumbrantes e intensas historias constituyen un canto contra el racismo, la guerra y la censura, destilando nostalgia e idealismo. ",
-        "origenUrl": "https://www.casadellibro.com/libro-cronicas-marcianas/9788445076538/1138699",
+        "origen-url": "https://www.casadellibro.com/libro-cronicas-marcianas/9788445076538/1138699",
         "img": "9.jpeg"
     },
     {
         "id": 10,
         "name": "AMERICAN GODS ",
-        "category": "Ciencia Ficción",
         "author": "NEIL GAIMAN",
         "desc": "El viaje del (anti)héroe llevado a su máxima expresión. Una novela que en realidad es un billete para llevarnos de viaje por carreteras secundarias poco transitadas y paradas atípicas en sitios que transpiran misterio e historia, permitiéndonos conocer y conversar con una miscelánea de fascinantes personajes. Dioses antiguos, héroes mitológicosy figuras legendarias se dan cita en la obra narrativa más importante del extraordinario Neil Gaiman.",
-        "origenUrl": "https://www.casadellibro.com/libro-american-gods/9788415729204/2194482",
+        "origen-url": "https://www.casadellibro.com/libro-american-gods/9788415729204/2194482",
         "img": "10.jpeg"
     },
     {
         "id": 11,
         "name": "THE WORLD OF CYBERPUNK 2077",
-        "category": "História de Videojuegos",
         "author": "VV.AA.",
         "desc": "Un cautivador libro a todo color que transporta a sus lectores a la megalópolis futurista de Night City, el epicentro del vibrante RPG producido por CD Projekt Red. Todo lo que necesitas saber sobre la historia, los personajes y el mundo del largo tiempo esperado videojuego de los creadores de The Witcher.",
-        "origenUrl": "https://www.casadellibro.com/libro-the-world-of-cyberpunk-2077/9788413344072/11591605",
+        "origen-url": "https://www.casadellibro.com/libro-the-world-of-cyberpunk-2077/9788413344072/11591605",
         "img": "11.jpeg"
     },
     {
         "id": 12,
         "name": "RETRO GAMING: UN RECORRIDO POR LA HISTORIA DE LOS VIDEOJUEGOS: DE ATARI A ZELDA ",
-        "category": "História de Videojuegos",
         "author": "MIKE DIVER",
         "desc": "De Atari y Sega a Nintendo y Sony, desde 'Asteroids' y 'Pac-Man' hasta 'Pokémon' y 'Zelda', este libro tiene todos los personajes, juegos y consolas que le encantaban y que seguramente siguen haciéndolo. Este compendio compacto cuenta la historia de los videojuegos en toda su gloria pixelada, celebrando los mejores machacabotones de más de cuarenta años de éxitos en recreativos, ordenadores, consolas y maquinitas. Tanto si lo que hace que le echen humo los pulgares es el modo multijugador de 'Golden Eye 007' o ponerse al volante con Mario, seguro que encontrará aquí todo lo que cambió las reglas del juego, además de clásicos dorados que tal vez haya olvidado ('Chrono', 'Trigger', ¿alguno más?).",
-        "origenUrl": "https://www.casadellibro.com/libro-retro-gaming-un-recorrido-por-la-historia-de-los-videojuegos-de-atari-a-zelda/9788441542709/11646902",
+        "origen-url": "https://www.casadellibro.com/libro-retro-gaming-un-recorrido-por-la-historia-de-los-videojuegos-de-atari-a-zelda/9788441542709/11646902",
         "img": "12.jpeg"
     },
     {
         "id": 13,
         "name": "POKEMON MUNDO MISTERIOSO DX: GUIA DE CONSEJOS, TRUCOS Y ESTRATEGIAS ",
-        "category": "História de Videojuegos",
         "author": "PABLO HERRERO BEAS",
         "desc": "Tienes en tus manos la guía que necesitas para completar Pokémon Mundo Misterioso, Equipo de Rescate DX, la nueva entrega del remake del clásico juego de Nintendo, ahora actualizado con gráficos nuevos e incorporando algunas funciones online. Sumérgete en un mundo de aventuras y color mientras descubres el misterio de los cataclismos que amenazan el mundo Pokémon:terremotos, tormentas, fuertes nevadas y rescatas a tus amigos. En este libro descubrirás los mejores trucos, consejos y estrategias para para derrotar a tus enemigos con unas completas y detalladas descripciones de las mazmorras. Encontrarás las listas completas de objetos, talentos, códigos y tipos de Pokémon para disfrutar de este el juego. No esperes más y exprime al máximo la experiencia Pokémon Mundo Misterioso con esta guía.",
-        "origenUrl": "https://www.casadellibro.com/libro-pokemon-mundo-misterioso-dx-guia-de-consejos-trucos-y-estrategias/9788499649368/11531767",
+        "origen-url": "https://www.casadellibro.com/libro-pokemon-mundo-misterioso-dx-guia-de-consejos-trucos-y-estrategias/9788499649368/11531767",
         "img": "13.jpeg"
     },
     {
         "id": 14,
         "name": "COMENTARIOS FILOLOGICOS SOBRE EL REALISMO MAGICO",
-        "category": "Realismo Mágico",
         "author": "JOSE MANUEL CAMACHO DELGADO",
         "desc": "El libro Comentarios filológicos sobre el realismo mágico es un acercamiento teórico y práctico a una de las corrientes literarias más singulares e importantes de la narrativa hispanoamericana del siglo XX. En el capítulo introductorio, el autor hace un recorrido por los orígenes de este movimiento estético, señalando las oportunas filiaciones técnicas y formales con el surrealismo francés del que participaron algunos de sus representantes - como Miguel Ángel Asturias, Alejo Carpentier o Arturo Uslar Pietri-, reconstruyendo la controversia crítica existente sobre el origen y la paternidad del marbete “realismo mágico”, aplicado al ámbito de las letras, al tiempo que se pone en relación a esta corriente con la conciencia mítica hispanoamericana y sus conexiones con las culturas precolombinas, el mestizaje cultural o el sincretismo religioso característico de estos pueblos. La obra se centra en dos de sus principales artífices, el escritor guatemalteco Miguel Ángel Asturias (Premio Nobel 1967) y el cubano Alejo Carpentier. Del primero de ellos se analizan textos pertenecientes a su novela El Señor Presidente (1946), obra que consagra no sólo la estética del realismo mágico, sino también la tipología de la novela de la dictadura. Para Carpentier se han elegido textos de El reino de este mundo (1949), novela emblemática de la nueva narrativa hispanoamericana, cuyo “Prólogo” es un manifiesto programático de su concepción de la nueva estética, a la que el escritor llamó “lo real maravilloso”. (...)",
-        "origenUrl": "https://www.casadellibro.com/libro-comentarios-filologicos-sobre-el-realismo-magico/9788476356586/1116505",
+        "origen-url": "https://www.casadellibro.com/libro-comentarios-filologicos-sobre-el-realismo-magico/9788476356586/1116505",
         "img": "14.jpeg"
     }
-];
-
-
-var url = new URL(window.location);
-
-
-categorias();
-gridBooks();
-detalleLibros();
-breadcrumb();
-makeBookDetaill();
-
-
-
-function detalleLibros() {
-    var libros = document.getElementsByClassName('book-item');
-    var valor = url.searchParams.get('valor');
-
-    if (libros.length > 0) {
-
-        Object.keys(libros).forEach(item => {
-            libros[item].addEventListener('click', function() {
-                window.location = 'detalle.html?detail=' + libros[item].getAttribute('id')
-            });
-        });
-    }
-}
-
-function categorias() {
-    var categorias = document.getElementsByClassName('cat-item');
-
-    Object.keys(categorias).forEach(item => {
-        categorias[item].addEventListener('click', function() {
-            var url = '/';
-            switch (categorias[item].getAttribute('id')) {
-                case '1':
-                    url = '/categoria.html?valor=Ciencia%20Ficción';
-                    break;
-                case '2':
-                    url = '/categoria.html?valor=Realismo%20Mágico';
-                    break;
-                case '3':
-                    url = '/categoria.html?valor=História%20de%20Videojuegos';
-                    break;
-                case '4':
-                    url = '/mascategorias.html?valor=Más%20Categorias';
-                    break;
-            }
-            window.location = url;
-        });
-    });
-}
-
-function breadcrumb() {
-
-    var valor = url.searchParams.get('valor');
-    var detalle = url.searchParams.get('detail');
-    var libro;
-
-    Object.keys(data).forEach(item => {
-        console.log(detalle + ' ' + data[item].id);
-
-        if (data[item].id == detalle) {
-            libro = data[item];
-            console.log(libro)
-
-        }
-    });
-
-    if (!valor) {
-        valor = libro.category;
-    }
-
-    if (detalle) {
-        detalle = libro.name;
-    } else {
-        detalle = '';
-    }
-
-    document.getElementById('breadcrumb').innerHTML = `
-    <ul class='location'>
-        <li>
-            <p> Inicio</p>
-        </li>
-        <li>
-            <p>${valor}<p/>
-        </li>
-        <li>
-            <p>${detalle}<p/>
-        </li>
-    </ul>
-    `;
-}
-
-function makeBookDetaill() {
-    var detalle = url.searchParams.get('detail');
-    var libro;
-
-    Object.keys(data).forEach(item => {
-        console.log(detalle + ' ' + data[item].id);
-
-        if (data[item].id == detalle) {
-            libro = data[item];
-            console.log(libro)
-
-        }
-    });
-
-    var name = document.getElementById('titulo-libro');
-    if (name) {
-        name.innerHTML = `${libro.name}`;
-    }
-
-    var autor = document.getElementById('autor-libro');
-    if (autor) {
-        autor.innerHTML = `${libro.author}`;
-    }
-
-    var origen = document.getElementById('origen-libro');
-    if (origen) {
-        origen.innerHTML = `${libro.origenUrl}`;
-    }
-
-    var desc = document.getElementById('desc-libro');
-    if (desc) {
-        desc.innerHTML = `${libro.desc}`;
-    }
-
-    var image = url.searchParams.get('img');
-    var img = document.getElementById('img-libro');
-    if (img) {
-        img.outerHTML = '<img src = "/img/' + `${libro.img}" alt="${libro.name}" />`;
-    }
-}
-
-function gridBooks() {
-    var librosStr = '';
-    var valor = url.searchParams.get('valor');
-
-
-    data.forEach(item => {
-        if (item.category == valor)
-            librosStr = librosStr + `
-                <div class="book-item" id='${item.id}'">
-                    <div class="item-container">
-                        <img src="/img/${item.id}.jpeg" alt='${item.name}' />
-                    </div>
-                    <h1>${item.name}</h1>
-                </div>
-                `;
-    })
-
-    var container = document.getElementById('id-book-container');
-    if (container) {
-        container.innerHTML = librosStr;
-    }
-
-}
+]
