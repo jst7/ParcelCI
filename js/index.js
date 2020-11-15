@@ -130,19 +130,25 @@ var data = [{
 var url = new URL(window.location);
 
 
+//Asigna la funcion de navegación a las cuadriculas de categorías
 categorias();
+//Crea la cuadricula de libros que y la inyecta en la aplicación
 gridBooks();
+//Asigna la navegavilidad a los libros que se ven en pantalla
 detalleLibros();
+//Forma el breadcrumb en el lado que se encuentre de la aplicación
 breadcrumb();
+//Carga los valores del detalle de un libro
 makeBookDetaill();
+//Carga la sección otros libros dentro del detalle de libros
 gridDetailBooks();
+//Asigna la navegavilidad a los libros que se ven en pantalla
 detalleLibros();
 
 
 
 function detalleLibros() {
     var libros = document.getElementsByClassName('book-item');
-    var valor = url.searchParams.get('valor');
 
     if (libros.length > 0) {
 
@@ -159,7 +165,7 @@ function categorias() {
 
     Object.keys(categorias).forEach(item => {
         categorias[item].addEventListener('click', function() {
-            var url = '/';
+            var url = '/index.html';
             switch (categorias[item].getAttribute('id')) {
                 case '1':
                     url = '/categoria.html?valor=Ciencia%20Ficción';
@@ -186,7 +192,6 @@ function breadcrumb() {
     var libro;
 
     Object.keys(data).forEach(item => {
-
         if (data[item].id == detalle) {
             libro = data[item];
         }
@@ -222,7 +227,6 @@ function makeBookDetaill() {
     var libro;
 
     Object.keys(data).forEach(item => {
-
         if (data[item].id == detalle) {
             libro = data[item];
         }
@@ -248,7 +252,6 @@ function makeBookDetaill() {
         desc.innerHTML = `${libro.desc}`;
     }
 
-    var image = url.searchParams.get('img');
     var img = document.getElementById('img-libro');
     if (img) {
         img.outerHTML = '<img src = "/img/' + `${libro.img}" alt="${libro.name}" />`;
@@ -305,7 +308,6 @@ function gridDetailBooks() {
                 </div>
                 `;
         }
-
     })
     if (librosStr.length == 0) {
         librosStr = 'No hay libros actualmente de esta temática';

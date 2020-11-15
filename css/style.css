@@ -31,6 +31,15 @@ body {
     flex-direction: column;
 }
 
+.menu li {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+    cursor: pointer;
+}
+
 .menu a {
     color: var(--menu-texto);
     text-decoration: none;
@@ -42,15 +51,6 @@ body {
 
 a:hover {
     color: var(--color-resaltado) !important;
-    cursor: pointer;
-}
-
-.menu li {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    padding-top: 2%;
-    text-align: center;
-    padding-bottom: 2%;
     cursor: pointer;
 }
 
@@ -152,9 +152,6 @@ footer a {
         width: 100vw;
     }
     .menu ul {
-        list-style-type: none;
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         width: 90%;
@@ -187,11 +184,6 @@ footer a {
     .item-container img:hover {
         object-fit: cover;
     }
-}
-
-.location a {
-    text-decoration: none;
-    color: var(--color-resaltado);
 }
 
 .location {
@@ -295,6 +287,8 @@ footer a {
         width: 90%;
     }
     .detail-box img {
+        object-fit: contain;
+        max-height: 50vh;
         width: 100%;
     }
     .book-side:nth-child(odd) {

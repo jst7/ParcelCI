@@ -6,8 +6,8 @@
     "scripts": {
         "dev": "npm-run-all clean copy-assets parcel:dev ",
         "build": "npm-run-all clean copy-assets parcel:build",
-        "parcel:dev": "parcel index.html",
-        "parcel:build": "parcel build index.html",
+        "parcel:dev": "parcel *.html",
+        "parcel:build": "parcel build *.html",
         "clean": "rimraf dist .cache .cache-loader",
         "copy-assets": "cp -R ./assets ./dist/"
     },
