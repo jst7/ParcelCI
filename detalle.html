@@ -9,9 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="shortcut icon" href="assets/img/logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/logo/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+    <header>
+        <div>
+            <img alt="logo header" class="logo" src="assets/img/logo/logo.png">
+            <h1 class="title">Archivo de Libros</h1>
+        </div>
+    </header>
     <nav class="menu" id="menu">
         <ul>
             <li><a href="/index.html">Inicio</a></li>
@@ -39,7 +47,11 @@
                 <button><i class="fas fa-book"></i> Leer</button>
             </div>
 
+
             <div class="book-side ">
+                <div>
+                    <img alt="Info author image" src="assets/img/detalle/info.png">
+                </div>
                 <ul class="info-book">
                     <li>
                         <p id="desc-libro">desc</p>
@@ -51,6 +63,10 @@
                     </li>
                     <li>
                         <p>Origen: <span id="origen-libro">Origen</span></p>
+                    </li>
+                    <li>
+                        <img alt="Info alert image" class="img-alert" src="assets/img/detalle/alerta.jpg">
+                        <p class="alert-text">Contenido obtenido de otro portal. No es producción propia</p>
                     </li>
                 </ul>
             </div>
@@ -66,6 +82,10 @@
     </main>
     <footer>
         <a href="#menu"><i class="fas fa-arrow-circle-up"></i>Volver a inicio</a>
+        <div class="title-comp">
+            <img alt="logo footer" class="logo-footer" src="assets/img/logo/logo.png">
+            <h1 class="title-footer">Archivo de Libros</h1>
+        </div>
     </footer>
 
     <script src="js/index.js"></script>

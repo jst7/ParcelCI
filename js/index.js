@@ -266,7 +266,7 @@ function gridBooks() {
     data.forEach(item => {
         if (item.category == valor)
             librosStr = librosStr + `
-                <div class="book-item center" id='${item.id}'">
+                <div class="book-item center cuadricula-efecto " id='${item.id}'">
                     <div class="item-container">
                         <img src="/img/${item.id}.jpeg" alt='${item.name}' />
                     </div>

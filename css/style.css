@@ -4,7 +4,7 @@
     --negro: #000000;
     --color-resaltado: #2e5e5a;
     --color-cat: #797979;
-    --menu-color: #111;
+    --menu-color: #d88d02;
     --menu-texto: #ffffff;
 }
 
@@ -14,6 +14,34 @@
     padding: 0;
     font-size: 16px;
 }
+
+
+/*
+ * EFECTOS
+ */
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/*
+ * EFECTOS
+ */
 
 body {
     height: 100vh;
@@ -38,6 +66,7 @@ body {
     text-align: center;
     padding-bottom: 2%;
     cursor: pointer;
+    transition: border 0.5s ease-out;
 }
 
 .menu a {
@@ -47,6 +76,7 @@ body {
     font-size: 18px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    transition: color 0.5s ease-out;
 }
 
 a:hover {
@@ -145,6 +175,7 @@ footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.5s ease-out;
 }
 
 @media all and (min-width: 700px) {
@@ -243,6 +274,8 @@ footer a {
     background-color: var(--color-cat);
     color: white;
     border-radius: 1.4em;
+    transition: color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 
 .detail-box button:hover {
@@ -320,4 +353,56 @@ footer a {
 
 .center {
     text-align: center;
+}
+
+
+/*
+* LOGO
+*/
+
+.title-comp {}
+
+.logo-footer {
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    width: 15%;
+}
+
+.logo {
+    width: 15%;
+}
+
+.title {
+    color: var(--color-resaltado);
+    display: inline;
+    font-size: xx-large;
+}
+
+.title-footer {
+    color: var(--color-resaltado);
+    font-size: xx-large;
+}
+
+@media all and (min-width: 700px) {
+    .logo-footer {
+        width: 5%;
+    }
+    .title-footer {
+        color: var(--color-resaltado);
+        display: inline;
+        font-size: xx-large;
+    }
+}
+
+.cuadricula-efecto {
+    animation: bounceIn 2s;
+}
+
+.img-alert {
+    width: 10% !important;
+    border-radius: 0em !important;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.alert-text {
+    display: inline;
 }
