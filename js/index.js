@@ -197,6 +197,10 @@ function breadcrumb() {
         }
     });
 
+    if (!valor && !libro) {
+        return;
+    }
+
     if (!valor) {
         valor = libro.category;
     }
@@ -294,6 +298,10 @@ function gridDetailBooks() {
             libro = data[item];
         }
     });
+
+    if (!libro) {
+        return;
+    }
 
     var cont = 0;
     data.forEach(item => {
